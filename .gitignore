@@ -1,2 +1,26 @@
+# Maven/Gradle build outputs
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Mac system files
 .DS_Store
 */**.DS_Store
+
+# Logs and reports
+logs/
+*.log
+*.tmp
+*.swp
+/surefire-reports/
+/failsafe-reports/
