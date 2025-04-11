@@ -1,8 +1,14 @@
 package com.example.taskapi.model;
 
-import jakarta.persistence.*;
-
 import java.time.LocalDateTime;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 //This Java class defines a Task entity that is mapped to a database table using Jakarta Persistence API (JPA). 
 // If you’re familiar with SQLAlchemy in Python, this is somewhat similar.
