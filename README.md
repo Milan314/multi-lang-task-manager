@@ -23,3 +23,5 @@ Then enter in the UI the details:
 
 You’ll now see your database!
 You can run SQL like: `SELECT * FROM TASK;`
+6. Can also do a GET request with a keyword search:
+`curl "http://localhost:8080/tasks/search?keyword=Spanish"`
